@@ -1,0 +1,9 @@
+react is a  js library not a framework used to built or arrange  web application 
+focus on making web application using components 
+components is a self contained section of code as a building block
+like a block building game
+use virtual dom which is a lightweight version of real dom can keep track of the changes made to the virtual dom and then apply those changes to the real dom only that specific part 
+
+
+
+  
