@@ -11,3 +11,10 @@ use virtual dom which is a lightweight version of real dom can keep track of the
   we send key value pair to the component in the parent file such as name in the app.jsx and use it as an arguemnent for the chiold component which is students
   boolean do now directly display to the dom you need to use them woth ternary operator
   Prop types is a mechanism that th epassed value is of the correct datatype
+
+
+
+
+  conditional rendering allows you to control what hets rendered in your ap;licationa t a certain conditions
+  show hode or change components
+  
