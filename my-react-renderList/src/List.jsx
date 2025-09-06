@@ -1,7 +1,11 @@
 function List(props){
 
-
-
+    const category = props.category;
+const itemList = props.items;
+const listItems = itemList.map(fruit => <li key={fruit.id}>
+    {fruit.name}: &nbsp;
+    <b>{fruit.calories}</b>
+    </li>);
 // react would like unique key for each item so it could easily keep track of items
 
 // fruits.sort((a,b)=> a.name.localeCompare(b.name));
@@ -24,10 +28,10 @@ function List(props){
 //     {fruit.name}: &nbsp;
 //     <b>{fruit.calories}</b>
 //     </li>);
-const listItems = fruits.map(fruit => <li key={fruit.id}>
-    {fruit.name}: &nbsp;
-    <b>{fruit.calories}</b>
-    </li>);
+// const listItems = fruits.map(fruit => <li key={fruit.id}>
+//     {fruit.name}: &nbsp;
+//     <b>{fruit.calories}</b>
+//     </li>);
 
 
 return (
