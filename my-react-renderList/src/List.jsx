@@ -1,6 +1,7 @@
 function List(props){
 
     const category = props.category;
+
 const itemList = props.items;
 const listItems = itemList.map(fruit => <li key={fruit.id}>
     {fruit.name}: &nbsp;
@@ -35,7 +36,10 @@ const listItems = itemList.map(fruit => <li key={fruit.id}>
 
 
 return (
+    <>
+    <h3>{category}</h3>
     <ol>{listItems}</ol>
+    </>
 );
 }
 
