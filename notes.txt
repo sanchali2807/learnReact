@@ -26,3 +26,5 @@ use virtual dom which is a lightweight version of real dom can keep track of the
 
   click event 
   an. intersection when a user clicks on a specific element we can respond to clicks by passing a callback to the onClick event handler
+  if we pass parameters in paranthesis then the function will be envoked right away even without that specific event occuring
+    // so we need to wrap that function with either a new fucntion or by arrow function 
