@@ -1,9 +1,9 @@
-function List(props){
+function List({ category = "Category", items = [] }){
 
-    const category = props.category;
 
-const itemList = props.items;
-const listItems = itemList.map(fruit => <li key={fruit.id}>
+
+
+const listItems = items.map(fruit => <li key={fruit.id}>
     {fruit.name}: &nbsp;
     <b>{fruit.calories}</b>
     </li>);

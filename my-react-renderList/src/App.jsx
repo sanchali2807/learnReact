@@ -16,14 +16,17 @@ function App() {
     {id:10,name:"pinapple",calories:37}
 ];
   return(<>
-  {fruits.length > 0 ? <List items={fruits} category ={"fruits"}/> :
-  <List items={vegetables} category ={"vegetabes"}
-/> 
-  }
 
+ {fruits.length > 0 && <List  category ={"fruits"}/> }
+{vegetables.length>0 && <List items={vegetables} category ={"vegetables"}
+/> }
 
   </>
 );
+{/* {fruits.length > 0 ? <List items={fruits} category ={"fruits"}/> :
+<List items={vegetables} category ={"vegetabes"}
+/> 
+} */}
   // print all one single string
 }
 
