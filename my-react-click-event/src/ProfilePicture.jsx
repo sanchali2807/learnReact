@@ -2,8 +2,10 @@
 function ProfilePicture(){
 
     const imageUrl = './src/assets/img1.png';
+
+    const handleCLick = (e) => e.target.style.display = "none";
     return(
-        <img src="{imageUrl}"></img>
+        <img onClick={(e)=>handleCLick(e)} src={imageUrl}></img>
     );
 }
 
