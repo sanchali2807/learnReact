@@ -18,3 +18,11 @@ use virtual dom which is a lightweight version of real dom can keep track of the
   conditional rendering allows you to control what hets rendered in your ap;licationa t a certain conditions
   show hode or change components
   
+
+
+
+
+
+
+  click event 
+  an. intersection when a user clicks on a specific element we can respond to clicks by passing a callback to the onClick event handler
