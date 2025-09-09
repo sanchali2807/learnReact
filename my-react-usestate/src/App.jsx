@@ -1,9 +1,11 @@
 
 import MyComponents from "./MyComponents"
+import Counter from "./Counter";
 function App() {
   return(
     <>
-    <MyComponents/>
+    {/* <MyComponents/> */}
+    <Counter/>
     </>
   );
 }

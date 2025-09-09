@@ -42,3 +42,4 @@ a react hook that allows the creation of stateful variable and a setter function
 inorder to use a react hook we need to import it
 useState return an array with two elements a variabke and a setter function
 use array deconstructuring 
+for useState you can pass an initial state
