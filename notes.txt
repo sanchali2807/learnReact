@@ -28,3 +28,17 @@ use virtual dom which is a lightweight version of real dom can keep track of the
   an. intersection when a user clicks on a specific element we can respond to clicks by passing a callback to the onClick event handler
   if we pass parameters in paranthesis then the function will be envoked right away even without that specific event occuring
     // so we need to wrap that function with either a new fucntion or by arrow function 
+
+
+
+
+
+react hook
+special function that allows functional components to use react features without writing class components 
+if it starts woth use
+
+useState()
+a react hook that allows the creation of stateful variable and a setter function to update its value in the virtual dom
+inorder to use a react hook we need to import it
+useState return an array with two elements a variabke and a setter function
+use array deconstructuring 
