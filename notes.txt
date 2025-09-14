@@ -52,3 +52,21 @@ for useState you can pass an initial state
 onchange()
 is an event handler user primarily with form elements
 triggers a function every time the value of an input changes
+
+
+
+updater function in react
+passed as an function to setState usually setYear(year+1)
+if we add like this even if we want to use this line twice value will increase only once as the value of the year is not uodated
+so we pass function 
+like 
+setyear(y => y + 1)
+setyear(y => y + 1)
+setyear(y => y + 1)
+
+either prevYear or the very first letter y represents the prev cout not the present count
+we are taking the  pending state to calculate the pending state
+adding to a queue
+within an arrow function if you have a set of curly braces js thinks you are writing a multiline statemnet
+to create a js object surround curly with paranthesis within an arrow function
+
