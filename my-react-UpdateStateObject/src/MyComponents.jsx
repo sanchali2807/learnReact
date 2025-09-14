@@ -8,7 +8,7 @@ function MyComponents(){
         // what we did was we changed the inital value from all three to just the year
         // setCar({...car,year:e.target.value});
 
-        setCar(car=>({...car,year:e.target.value}));  
+        setCar(c=>({...c,year:e.target.value}));  
 
 
 
@@ -16,10 +16,10 @@ function MyComponents(){
         //like this even on changing the year the other values does not disappear
     }
     function handleMakeChange(e){
-
+        setCar(c=>({...c,make:e.target.value}));
     }
     function handleModelChange(e){
-
+         setCar(c=>({...c,modele:e.target.value}));
     }
 
 return(<>
