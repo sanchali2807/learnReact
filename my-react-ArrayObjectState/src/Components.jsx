@@ -12,7 +12,11 @@ function Components(){
                         make:carMake,
                         model:model
                     }
-        setCars(c => [...c,newCar]);              
+        setCars(c => [...c,newCar]);  
+    // after sub,iting th eobject i would like to reset the values
+    setYear([new Date().getFullYear()]);
+    setCarMake("");
+    setModel("");
 
     }
     function handleDeleteCar(index){
