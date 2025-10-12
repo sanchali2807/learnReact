@@ -20,7 +20,7 @@ function Components(){
 
     }
     function handleDeleteCar(index){
-
+        setCars(c => c.filter((_,idx) => idx !== index));
     }
 
     function handleYearChange(event){
@@ -39,7 +39,7 @@ function Components(){
         <h2>List Of Car Objects</h2>
         <ul>
             {cars.map((car,index)=>
-            <li key={index}>{car.year} {car.make} {car.model}</li>)}
+            <li key={index} onClick={()=>handleDeleteCar(index)}>{car.year} {car.make} {car.model}</li>)}
 
         </ul>
         <input type="number" value={carYear} onChange={handleYearChange}/><br/>
