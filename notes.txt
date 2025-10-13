@@ -74,3 +74,16 @@ to create a js object surround curly with paranthesis within an arrow function
 
 
 
+useEffect
+is a react hook 
+tell react to do some code when pick once
+1 component re renders
+2 component mounts
+3 state of a value
+
+think of it as a side code 
+written with a fucntion 
+useEffect(function , [dependencies])
+for re render just funciton 
+for only mount pass along an empty array 
+for mount + value change pass value. as [value];
