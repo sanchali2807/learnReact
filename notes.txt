@@ -87,3 +87,6 @@ useEffect(function , [dependencies])
 for re render just funciton 
 for only mount pass along an empty array 
 for mount + value change pass value. as [value];
+
+
+bbbbbbb
