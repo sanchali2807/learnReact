@@ -110,5 +110,18 @@ but we need provider component
 which component has the data
 
 any component that needs the data is the consumer component
-git add notes.txt
+
+
+
+
+
+useRef very similar to useState (re render the component when the state value changes)
+use useRef when you want a component to remember some info
+ie not to re render on every value changes
+
+
+ 
+
+
+
 
