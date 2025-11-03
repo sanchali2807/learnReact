@@ -89,4 +89,26 @@ for only mount pass along an empty array
 for mount + value change pass value. as [value];
 
 
+
 bbbbbbb
+
+to unmount the useeffect use retuen statemnet
+
+and why use useeffect because it have special cases and only runt he side code in those cases and not every time
+
+
+
+
+useContext is a react hook that allows you to share values between multiple levels of components without passing props through each level
+
+
+props drilling
+passing down the props along the chain of components but this can be very tedious so we use useContext hook 
+here we can share the values without passing props
+
+but we need provider component
+which component has the data
+
+any component that needs the data is the consumer component
+git add notes.txt
+
